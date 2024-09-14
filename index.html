@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Vitaminas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Juego de Vitaminas</h1>
+    <div id="game">
+        <p>Haz clic en una vitamina para saber si es soluble en agua o en grasa:</p>
+        <button onclick="showInfo('A')">Vitamina A</button>
+        <button onclick="showInfo('B')">Vitamina B</button>
+        <button onclick="showInfo('C')">Vitamina C</button>
+        <button onclick="showInfo('D')">Vitamina D</button>
+        <button onclick="showInfo('E')">Vitamina E</button>
+        <button onclick="showInfo('K')">Vitamina K</button>
+    </div>
+    <div id="info">
+        <p id="info-text">Selecciona una vitamina para obtener información.</p>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
